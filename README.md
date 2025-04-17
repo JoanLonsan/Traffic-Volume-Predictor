@@ -1,10 +1,10 @@
-🚗 Traffic Volume Predictor with LSTM
+# 🚗 Traffic Volume Predictor with LSTM
 
 Build and train a time series prediction model using PyTorch to forecast traffic volume based on historical data — originally sourced from the Metro Interstate Traffic dataset (UCI), and adaptable to any city (e.g., Madrid 🇪🇸).
 
 ---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 ✅ Prerequisites  
 Before you begin:
@@ -15,7 +15,7 @@ Before you begin:
 
 ---
 
-📘 Project Overview
+## 📘 Project Overview
 
 In this notebook, you will:
 
@@ -28,7 +28,7 @@ In this notebook, you will:
 
 ---
 
-🧠 Key Concepts
+## 🧠 Key Concepts
 
 - Time series modeling with sequence windows
 - `torch.nn.LSTM` architecture
@@ -38,14 +38,14 @@ In this notebook, you will:
 
 ---
 
-📂 Files
+## 📂 Files
 
 - `traffic_volume_Predictor.ipynb` – Main notebook with all code, training, evaluation, and plots.
 - `README.md` – You're reading it!
 
 ---
 
-🌍 Customizing for Your Location
+## 🌍 Customizing for Your Location
 
 This project was built using data from the UCI ML Repository, but it can be easily adapted to any city with traffic data.
 
@@ -53,7 +53,7 @@ Check the final section in the notebook for a step-by-step guide on how to do th
 
 ---
 
-📈 Example Output
+## 📈 Example Output
 
 The model achieves low MSE on the test set and produces time-aligned predictions that closely follow the true traffic pattern:
 
@@ -62,13 +62,13 @@ The model achieves low MSE on the test set and produces time-aligned predictions
 
 ---
 
-💡 Pro Tip
+## 💡 Pro Tip
 
 Want to test your own dataset? Just replace the CSV and update the preprocessing section. The LSTM model and sequence logic remain the same!
 
 ---
 
-📎 Extras
+## 📎 Extras
 
 - Consider tuning hyperparameters like `seq_length`, `hidden_size`, or `batch_size` for better results.
 - Add external features like weather or event data for improved forecasting.
